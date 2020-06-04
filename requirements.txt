@@ -1,0 +1,4 @@
+shareplum
+openpyxl
+pandas
+numpy
