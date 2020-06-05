@@ -15,7 +15,6 @@ class SharePointListUtils:
 
     @staticmethod
     def run():
-        log.info("SharePoint List Utilities - Starting up...")
 
         wb = load_workbook(filename='data.xlsx', read_only=True)
         ws = wb['Raw Data']
