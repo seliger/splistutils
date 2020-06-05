@@ -1,6 +1,11 @@
+
+import logging
+
+log = logging.getLogger(__name__)
+
 class SharePointListUtils:
 
 
     @staticmethod
     def run():
-        print("Hello world!")
+        log.info("SharePoint List Utilities - Starting up...")
