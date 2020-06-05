@@ -2,3 +2,4 @@ shareplum
 openpyxl
 pandas
 numpy
+itertools
