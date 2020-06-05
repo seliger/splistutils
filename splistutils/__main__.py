@@ -2,10 +2,10 @@
 import logging
 import sys
 
-from .application import SharePointListUtils
+from splistutils.application import SharePointListUtils
 
-if __name__ == '__main__':
 
+def run():
     # Configure logging
     logging.basicConfig(
         level=logging.INFO,
@@ -19,4 +19,6 @@ if __name__ == '__main__':
 
     # Launch into the main application run code
     SharePointListUtils.run()
-    
+
+if __name__ == '__main__':
+    run()

@@ -1,1 +1,1 @@
-from .application import SharePointListUtils
+from splistutils.application import SharePointListUtils
